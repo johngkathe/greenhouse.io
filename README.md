@@ -21,5 +21,13 @@ JavaScript - Has extreme flexibility for making web APIs and local applications 
 
 ## Frameworks Used
 MongoDB - I chose this noSQL database to handle the storage of my greenhouse data.  I would rather work with JSONs than with SQL queries.
+
 Express.js - The default framework for making REST AP s/CRUD operations... an essential element of any MEAN/MERN application.
+
 Node.js - Another default.
+
+## Security
+Password hashing is handled with the argon2 library using argon2's argon2id
+
+Tokenization is handled with  jwt.io's jsonwebtoken library
+
