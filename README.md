@@ -5,4 +5,5 @@ This is a PaaS deployment of my greenhouse measurements software containing only
 
 ## URL
 https://greenhouse-io.herokuapp.com/
-*Note: The front end of this application is currently in development.  The contents of index.js are shown as a placeholder.
+
+*Note: The front end of this application is currently in development.  The contents of index.js are shown as a placeholder.*
