@@ -5,6 +5,9 @@
 ## About this Repository
 This is a PaaS deployment of my greenhouse measurements software containing only the pertinent software components allowing it to function on the cloud.  Unlike the base version, it cannot access a local database, only a remote database hosted by MongoDB Atlas.
 
+## Current Data
+All dummy data.  I chose not to make a mess by writing a script to create tons of potentially implausible data, although I may have to when I start working on data visualization components.
+
 ## URL
 https://greenhouse-io.herokuapp.com/
 
@@ -28,6 +31,8 @@ Node.js - Another default.
 
 ## Data Management
 Postman API - I used the Postman API to test each CRUD operation for robust functionality.  Currently that is the gateway in which I operate on all of my dummy data.
+
+I made addresses to query the database from Postman as well as dummy JSON models as a basis for crafting dummy greenhouse data
 
 ## Security
 Password hashing is handled with the argon2 library using argon2's argon2id for robust protection against GPU cracking *and* side channel attacks... which is overkill in this context, but looking for a good password hashing library took longer than actually implementing this library in my code.
