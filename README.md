@@ -26,8 +26,11 @@ Express.js - The default framework for making REST AP s/CRUD operations... an es
 
 Node.js - Another default.
 
-## Security
-Password hashing is handled with the argon2 library using argon2's argon2id
+## Data Management
+Postman API - I used the Postman API to test each CRUD operation for robust functionality.  Currently that is the gateway in which I operate on all of my dummy data.
 
-Tokenization is handled with  jwt.io's jsonwebtoken library
+## Security
+Password hashing is handled with the argon2 library using argon2's argon2id for robust protection against GPU cracking *and* side channel attacks... which is overkill in this context, but looking for a good password hashing library took longer than actually implementing this library in my code.
+
+Tokenization is handled with  jwt.io's jsonwebtoken library.
 
